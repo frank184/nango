@@ -3568,6 +3568,32 @@ deel-sandbox:
         base_url: https://api-sandbox.demo.deel.com
     docs: https://docs.nango.dev/integrations/all/deel-sandbox
 
+deliverect:
+    display_name: Deliverect
+    categories:
+        - payment
+    auth_mode: OAUTH2
+    authorization_url: https://api.deliverect.com/oauth/authorize
+    token_url: https://api.deliverect.com/oauth/token
+    authorization_params:
+        response_type: code
+    proxy:
+        base_url: https://api.deliverect.com
+    docs: https://docs.nango.dev/integrations/all/deliverect
+
+deliverect-staging:
+    display_name: Deliverect (Staging)
+    categories:
+        - payment
+    auth_mode: OAUTH2
+    authorization_url: https://api.staging.deliverect.com/oauth/authorize
+    token_url: https://api.staging.deliverect.com/oauth/token
+    authorization_params:
+        response_type: code
+    proxy:
+        base_url: https://api.staging.deliverect.com
+    docs: https://docs.nango.dev/integrations/all/deliverect-staging
+
 devin:
     display_name: Devin
     categories:

@@ -395,6 +395,8 @@
               "integrations/all/datto-rmm-password-grant",
               "integrations/all/deel",
               "integrations/all/deel-sandbox",
+              "integrations/all/deliverect",
+              "integrations/all/deliverect-staging",
               "integrations/all/devin",
               "integrations/all/dialpad",
               "integrations/all/dialpad-sandbox",
